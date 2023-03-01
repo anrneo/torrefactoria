@@ -1,0 +1,29 @@
+pasos de configuaracion:
+
+Docker
+- docker build -t torrefactoria .
+- docker run -p 8081:8081 torrefactoria
+
+CRUD tareas. http://localhost:8081/api/tasks
+{
+    "name": string,
+    "description": string,
+    "endDate": true, //solo por PUT
+    "statusId": number,
+    "priorityId": number   
+}
+
+CRUD estatus http://127.0.0.1:8081/api/status
+CRUD prioridades http://127.0.0.1:8081/api/priority
+
+crear Subtarea : (POST) http://localhost:8081/api/tasks/{idTarea}/subtask
+{
+    "name": string,
+    "description": string,
+    "statusId": number,
+    "priorityId": number   
+}
+
+repositorio GitHub: https://github.com/anrneo/exp-confirming
+
+gracias

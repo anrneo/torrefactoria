@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://baasu.db.elephantsql.com/phkurjrx?useSSL=false
+    username: phkurjrx
+    password: ZNu7mkef2RUsyEYuvdaTuoqaNN4H7psE
+server:
+  port: 8081
