@@ -24,6 +24,6 @@ crear Subtarea : (POST) http://localhost:8081/api/tasks/{idTarea}/subtask
     "priorityId": number   
 }
 
-repositorio GitHub: https://github.com/anrneo/exp-confirming
+repositorio GitHub: https://github.com/anrneo/torrefactoria
 
 gracias
