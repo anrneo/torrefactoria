@@ -13,9 +13,6 @@ CRUD tareas. http://localhost:8081/api/tasks
     "priorityId": number   
 }
 
-CRUD estatus http://127.0.0.1:8081/api/status
-CRUD prioridades http://127.0.0.1:8081/api/priority
-
 crear Subtarea : (POST) http://localhost:8081/api/tasks/{idTarea}/subtask
 {
     "name": string,
@@ -23,6 +20,11 @@ crear Subtarea : (POST) http://localhost:8081/api/tasks/{idTarea}/subtask
     "statusId": number,
     "priorityId": number   
 }
+
+CRUD estatus http://127.0.0.1:8081/api/status
+CRUD prioridades http://127.0.0.1:8081/api/priority
+
+
 
 repositorio GitHub: https://github.com/anrneo/torrefactoria
 
